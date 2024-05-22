@@ -1,0 +1,26 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 10
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /nix/store/5lkdbfn0k3g42waalamdify9bajq0b1l-qt-full-5.15.2/include \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/include/c++/10.2.0 \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/include/c++/10.2.0/x86_64-unknown-linux-gnu \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/include/c++/10.2.0/backward \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/include \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed \
+    /nix/store/vr4977307zkjprfkivi4lgbzlvig3y9j-glibc-2.32-40-dev/include
+QMAKE_CXX.LIBDIRS = \
+    /nix/store/9ilyrqidrjbqvmnn8ykjc7lygdd86g7q-gcc-10.2.0-lib/lib \
+    /nix/store/v8q6nxyppy1myi3rxni2080bv8s9jxiy-glibc-2.32-40/lib \
+    /nix/store/zzvq5qwlm2xikawfqxb0q8gl2bw391a9-gcc-wrapper-10.2.0/bin \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/lib/gcc/x86_64-unknown-linux-gnu/10.2.0 \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/lib64 \
+    /usr/local/lib \
+    /nix/store/q8rv03yvqsfipnxwyj0sb6lqs50y5b3q-gcc-10.2.0/lib
